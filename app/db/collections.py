@@ -1,0 +1,20 @@
+"""Central registry of MongoDB collection names."""
+
+
+class Collections:
+    USERS = "users"
+    REFRESH_TOKENS = "refresh_tokens"
+    FACULTY = "faculty"
+    STUDENTS = "students"
+    DEPARTMENTS = "departments"
+    TEACHERS = "teachers"
+    SUBJECTS = "subjects"
+    CLASSES = "classes"
+    TIMETABLE = "timetable"
+    LEAVES = "leaves"
+    SUBSTITUTIONS = "substitutions"
+    ATTENDANCE = "attendance"
+    ASSIGNMENTS = "assignments"
+    WORKLOAD = "workload"
+    NOTIFICATIONS = "notifications"
+    AUDIT_LOGS = "audit_logs"
